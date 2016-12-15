@@ -1,0 +1,106 @@
+@charset "UTF-8";
+*{ margin:0; padding:0; font-family:"微软雅黑";}
+body{ margin:0 auto;
+      min-width:320px; 
+	  height:100%; 
+}
+li{ list-style:none;}
+img{ border:none;}
+.top{ background-color:#d5f1d8;}
+.top img{ width:100%;}
+.top .fenshu{ width:100%;text-align:center; color:#40433a;}
+.top .fenshu span{ color:#fe5500;}
+
+
+#zan{background-color: #d5f1d8; border: navajowhite;width: 100%;}
+#zan img{ width:19%;}
+
+.bottom{ background-color:#fcf7d7;}
+.bottom img{ width:100%;}
+.bottom a{ color:#fe5500; width:100%; text-align:center; display:block;line-height:30px;}
+.bottom a img{ width:4%; margin-left:3%;}
+
+.more{width: 86%;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+	border: 1px dashed #fe5500;
+    padding: 1% 2%;
+}
+
+.more b{    width: 8px;
+    height: 8px;
+    font-size: 12px;
+    background-color: #fe5500;
+    color: #FFF;
+    display: block;
+    float: left;
+    margin-top: 7px;
+    border-radius: 5px;
+    margin-right: 2%;
+}
+.tc_bg{    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.tc_bg .tc_box{
+    margin: 0 auto;
+    margin-top: 40%;
+    width: 90%;
+    display: block;
+	background-color:#FFF;
+	border-radius:20px;
+}
+.tc_bg .tc_box .main_pic{ width:100%; border-top-left-radius: 20px;border-top-right-radius: 20px; position:relative;}
+.tc_bg .tc_box .close{    position:relative;
+    margin-top:-34%;
+    left: 87%;
+    width: 10%;}
+.tc_container p{    font-size: 13px;
+    width: 97%;
+    display: block;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-top: 1%;}
+.tc_container p span{ color:#f64904;}
+.tc_container a{ display:block;
+                 width:100%;
+				 text-align:center;
+				 color:#f64904;
+				 line-height:30px;}
+				 
+.tc_bg .tc_box .tc_container #p1 img{
+    display: block;
+    width: 30%;
+    margin: 0 auto;	
+	}
+
+
+#ts{    width: 90%;
+    margin: 0 auto;
+    display: block;}
+
+
+/*分享弹窗*/
+.dg_tc_bg , .wx_fx_bg , .dgcg_tc_bg , .lq_bg_1 , .lq_bg_2 , .lq_bg_3 , .lq_bg_4{width:100%; height:100%; position:fixed; top:0; left:0; background-color:rgba(0,0,0,0.4); display:none;}
+.login_tc_box , .dgcg_tc_box{width:320px; position:fixed; top:15%; left:50%; margin-left:-160px; /*background-color:#f3c720;*/ border-radius:3px; text-align:center; background-color:#3e6c2f;-webkit-animation:popout .5s; animation:popout .5s;}
+@-webkit-keyframes popout{
+	0%{ -webkit-transform:scale(0.9,0.9); opacity:0;}
+	30%{-webkit-transform:scale(1.05,1.05);opacity:1;}
+	60%{-webkit-transform:scale(0.95,0.95);opacity:1;}
+	100%{-webkit-transform:scale(1,1);opacity:1;}
+}
+@keyframes popout{
+	0%{ transform:scale(0.9,0.9); opacity:0;}
+	30%{transform:scale(1.05,1.05);opacity:1;}
+	60%{transform:scale(0.95,0.95);opacity:1;}
+	100%{transform:scale(1,1);opacity:1;}
+}
+
+
+.wx_fx_bg img{width:100%; margin:0 auto;}
+.wx_fx_bg{background-color:rgba(0,0,0,0.6);}

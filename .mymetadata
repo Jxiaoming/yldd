@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="yldd"
+  id="myeclipse.1353716292566"
+  context-root="/yldd"
+  j2ee-spec="5.0"
+  archive="yldd.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+
